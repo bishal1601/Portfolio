@@ -1,0 +1,126 @@
+/* Reset some default styles */
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      
+      body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          background-color: #f4f4f4;
+          color: #333;
+      }
+      
+      header {
+          background: #333;
+          color: #fff;
+          padding: 1rem 0;
+          text-align: center;
+      }
+      
+      header h1 {
+          margin-bottom: 0.5rem;
+      }
+      
+      header p {
+          font-size: 1.2rem;
+      }
+      
+      nav {
+          background: #444;
+      }
+      
+      nav ul {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          padding: 0.5rem 0;
+      }
+      
+      nav ul li {
+          margin: 0 15px;
+      }
+      
+      nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      
+      .container {
+          width: 80%;
+          max-width: 1200px;
+          margin: auto;
+          padding: 20px 0;
+      }
+      
+      .hero {
+          background-image: url('background.jpg'); /* Replace with your image */
+          background-size: cover;
+          background-position: center;
+          color: #fff;
+          text-align: center;
+          padding: 100px 0;
+      }
+      
+      .hero h2 {
+          font-size: 2.5rem;
+          margin-bottom: 10px;
+      }
+      
+      .hero p {
+          font-size: 1.2rem;
+          margin-bottom: 20px;
+      }
+      
+      .hero .btn {
+          background: #444;
+          color: #fff;
+          padding: 10px 20px;
+          text-decoration: none;
+          font-size: 1rem;
+          border-radius: 5px;
+      }
+      
+      section {
+          margin: 20px 0;
+          padding: 20px 0;
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      section h2 {
+          margin-bottom: 1rem;
+          text-align: center;
+          color: #333;
+      }
+      
+      section ul {
+          list-style: disc;
+          margin: 20px;
+      }
+      
+      section ul li {
+          margin-bottom: 10px;
+      }
+      
+      footer {
+          background: #333;
+          color: #fff;
+          text-align: center;
+          padding: 1rem 0;
+          margin-top: 20px;
+      }
+      /* Add styles for profile image */
+.profile-image {
+          max-width: 150px; /* Adjust size as needed */
+          border-radius: 50%;
+          margin: 20px 0; /* Space around the image */
+          display: block; /* Center the image */
+          margin-left: auto;
+          margin-right: auto;
+      }
+      
+      
